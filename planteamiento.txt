@@ -1,0 +1,16 @@
+ALGORITMO: SUMAR_HASTA_N
+ENTRADAS: n
+SALIDA: suma
+
+    suma = 0
+    contador = 1
+
+    MIENTRAS contador <= n:
+        suma = suma + contador
+        contador = contador + 1
+
+    DEVOLVER suma
+
+LLAMADA:
+    n = ENTERO(LEER("Introduce un número: "))
+    ESCRIBIR SUMAR_HASTA_N(n)
